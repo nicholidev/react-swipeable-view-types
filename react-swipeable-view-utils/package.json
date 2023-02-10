@@ -1,0 +1,23 @@
+{
+    "name": "@types/react-swipeable-view-utils",
+    "version": "0.13.4",
+    "description": "TypeScript definitions for react-swipeable-view-utils",
+    "homepage": "https://github.com/nicholidev/react-swipeable-view-types/tree/main/react-swipeable-views-utils",
+    "author": "Nicholi Jin <nicholijin@gmail.com> (https://nicholijin.com)",
+    "license": "MIT",
+    "main": "",
+    "types": "index.d.ts",
+    "prevate": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nicholidev/react-swipeable-view-types",
+        "directory": "react-swipeable-views-utils"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@material-ui/types": "*",
+        "@types/react": "*",
+        "@types/react-swipeable-view": "*"
+    },
+    "typeScriptVersion": "4.1"
+}

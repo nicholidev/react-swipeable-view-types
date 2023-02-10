@@ -1,15 +1,5 @@
-# Installation
-> `npm install --save @types/react-swipeable-views`
-
-# Summary
-This package contains type definitions for react-swipeable-views (https://github.com/oliviertassinari/react-swipeable-views).
-
-# Details
-Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-swipeable-views.
-## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-swipeable-views/index.d.ts)
-````ts
-// Type definitions for react-swipeable-views 0.13
-// Project: https://github.com/oliviertassinari/react-swipeable-views
+// Type definitions for react-swipeable-view 0.13
+// Project: https://github.com/oliviertassinari/react-swipeable-view
 // Definitions by: Michael Ledin <https://github.com/mxl>
 //                 Deividas Bakanas <https://github.com/DeividasBakanas>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -68,13 +58,3 @@ export interface SwipeableViewsState {
 }
 
 export default class SwipeableViews extends React.Component<SwipeableViewsProps, SwipeableViewsState> { }
-
-````
-
-### Additional Details
- * Last updated: Wed, 07 Jul 2021 18:31:45 GMT
- * Dependencies: [@types/react](https://npmjs.com/package/@types/react)
- * Global values: none
-
-# Credits
-These definitions were written by [Michael Ledin](https://github.com/mxl), and [Deividas Bakanas](https://github.com/DeividasBakanas).

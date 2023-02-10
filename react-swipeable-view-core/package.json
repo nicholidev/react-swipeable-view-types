@@ -1,7 +1,7 @@
 {
-    "name": "@types/react-swipeable-views-core",
+    "name": "@types/react-swipeable-view-core",
     "version": "0.13.0",
-    "description": "TypeScript definitions for react-swipeable-views-core",
+    "description": "TypeScript definitions for react-swipeable-view-core",
     "license": "MIT",
     "contributors": [
         {
@@ -15,11 +15,11 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
-        "directory": "types/react-swipeable-views-core"
+        "directory": "types/react-swipeable-view-core"
     },
     "scripts": {},
     "dependencies": {
-        "@types/react-swipeable-views": "*"
+        "@types/react-swipeable-view": "*"
     },
     "typesPublisherContentHash": "d9e13527d96e3f91dccdebf0bfbddbe632a357392205c4d0054a5fee51eeff65",
     "typeScriptVersion": "3.0"

@@ -1,5 +1,15 @@
-// Type definitions for react-swipeable-views-utils 0.13
-// Project: https://github.com/oliviertassinari/react-swipeable-views#react-swipeable-views
+# Installation
+> `npm install --save @types/react-swipeable-view-utils`
+
+# Summary
+This package contains type definitions for react-swipeable-view-utils (https://github.com/oliviertassinari/react-swipeable-view#react-swipeable-view).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-swipeable-view-utils.
+## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-swipeable-view-utils/index.d.ts)
+````ts
+// Type definitions for react-swipeable-view-utils 0.13
+// Project: https://github.com/oliviertassinari/react-swipeable-view#react-swipeable-view
 // Definitions by: Sebastian Silbermann <https://github.com/eps1lon>
 //                 Robert Nisipeanu <https://github.com/robertnisipeanu>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -7,7 +17,7 @@
 
 import * as React from 'react';
 import { PropInjector } from '@material-ui/types';
-import { OnChangeIndexCallback, OnSwitchingCallback, OnTransitionEndCallback } from 'react-swipeable-views';
+import { OnChangeIndexCallback, OnSwitchingCallback, OnTransitionEndCallback } from 'react-swipeable-view';
 
 export interface WithIndex {
     index?: number;
@@ -51,3 +61,13 @@ export const autoPlay: PropInjector<WithAutoPlay, WithAutoPlayProps>;
 export type SlideRendererCallback = (render: SlideRenderProps) => React.ReactNode;
 export const virtualize: PropInjector<WithVirtualize, WithVirtualizeProps>;
 export const bindKeyboard: PropInjector<WithBindKeyboard, WithBindKeyboardProps>;
+
+````
+
+### Additional Details
+ * Last updated: Fri, 23 Sep 2022 18:33:24 GMT
+ * Dependencies: [@types/material-ui__types](https://npmjs.com/package/@types/material-ui__types), [@types/react](https://npmjs.com/package/@types/react), [@types/react-swipeable-view](https://npmjs.com/package/@types/react-swipeable-view)
+ * Global values: none
+
+# Credits
+These definitions were written by [Sebastian Silbermann](https://github.com/eps1lon), and [Robert Nisipeanu](https://github.com/robertnisipeanu).
