@@ -1,0 +1,26 @@
+{
+    "name": "@types/react-swipeable-views-core",
+    "version": "0.13.0",
+    "description": "TypeScript definitions for react-swipeable-views-core",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "kodai3",
+            "url": "https://github.com/kodai3",
+            "githubUsername": "kodai3"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/react-swipeable-views-core"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/react-swipeable-views": "*"
+    },
+    "typesPublisherContentHash": "d9e13527d96e3f91dccdebf0bfbddbe632a357392205c4d0054a5fee51eeff65",
+    "typeScriptVersion": "3.0"
+}
